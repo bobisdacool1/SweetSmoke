@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'AvenirNextCyr';
+  src: url(../fonts/AvenirNextCyr-Medium.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  src: url(../fonts/BebasNeueBold.ttf);
+  font-style: bold;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'BrutalType';
+  src: url(../fonts/BrytalType.ttf);
+  font-style: bold;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'SerpentineSans';
+  src: url(../fonts/SerpentineSansICGBold.ttf);
+  font-style: bold;
+  font-weight: 800;
+}
+
+.container {
+  width: 1680px;
+  margin: 0 auto;
+}
+
+nav.nav {
+  background-color: #4b0d5c;
+  height: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+
+nav.nav .logo {
+  width: 1px;
+  height: 1px;
+  display: inline;
+  margin-left: 340px;
+}
+
+.navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-item {
+  font-family: 'AvenirNextCyr';
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
