@@ -42,13 +42,13 @@ nav.nav {
           justify-content: space-between;
   position: fixed;
   width: 100%;
+  z-index: 999;
 }
 
 nav.nav .logo {
-  width: 1px;
-  height: 1px;
-  display: inline;
-  margin-left: 340px;
+  margin-right: 340px;
+  width: 84px;
+  height: 63px;
 }
 
 .navbar-nav {
@@ -58,6 +58,9 @@ nav.nav .logo {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navbar {
@@ -76,5 +79,80 @@ nav.nav .logo {
 .navbar-item {
   font-family: 'AvenirNextCyr';
   color: #fff;
+  line-height: 9px;
+  letter-spacing: 1.6px;
 }
+
+.hero {
+  background-image: url(../img/hero-bg-1.png);
+  background-repeat: no-repeat;
+  background-position-y: 95px;
+  z-index: -1;
+  height: 100vh;
+}
+
+.sng {
+  position: absolute;
+  z-index: 2;
+  max-height: 100vh;
+  margin-left: 50px;
+}
+
+.slogan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-image: url(../img/hero-bg.png);
+  z-index: 5;
+}
+
+.slogan .subtittle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-right: 250px;
+}
+
+.slogan h1 {
+  font-size: 120px;
+  font-family: 'BebasNeue';
+  margin: 0;
+}
+
+.slogan p {
+  font-size: 26px;
+  font-family: 'BrutalType';
+  font-style: bold;
+  font-weight: 300;
+  margin: 0;
+}
+
+.slogan * {
+  color: #fff;
+}
+
+@imp {}
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,37 @@
+.hero
+    background-image: url(../img/hero-bg-1.png)
+    background-repeat: no-repeat
+    background-position-y: 95px
+    z-index: -1
+    height: 100vh
+.sng
+    position: absolute
+    z-index: 2
+    max-height: 100vh
+    margin-left: 50px
+.slogan
+    display: flex
+    height: 100%
+    width: 100%
+    flex-direction: column
+    justify-content: center
+    position: relative
+    align-items: flex-end
+    background-image: url(../img/hero-bg.png)
+    z-index: 5
+    .subtittle
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: flex-start
+        margin-right: 250px
+    h1
+        font-size: 120px
+        +bebas
+        margin: 0
+    p
+        font-size: 26px
+        +brutal
+        margin: 0
+    *
+        +white
