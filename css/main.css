@@ -77,7 +77,7 @@ nav.nav .logo {
 }
 
 .navbar-item {
-  font-family: 'AvenirNextCyr';
+  font-family: 'AvenirNextCyr', sans-serif;
   color: #fff;
   line-height: 9px;
   letter-spacing: 1.6px;
@@ -88,7 +88,7 @@ nav.nav .logo {
   background-repeat: no-repeat;
   background-position-y: 95px;
   z-index: -1;
-  height: 100vh;
+  height: 1100px;
 }
 
 .sng {
@@ -108,18 +108,21 @@ nav.nav .logo {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  position: relative;
   background-image: url(../img/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: top;
   z-index: 5;
 }
 
 .slogan .subtittle {
+  margin-top: 290px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -138,13 +141,13 @@ nav.nav .logo {
 
 .slogan h1 {
   font-size: 120px;
-  font-family: 'BebasNeue';
+  font-family: 'BebasNeue', sans-serif;
   margin: 0;
 }
 
 .slogan p {
   font-size: 26px;
-  font-family: 'BrutalType';
+  font-family: 'BrutalType', sans-serif;
   font-style: bold;
   font-weight: 300;
   margin: 0;
@@ -154,5 +157,74 @@ nav.nav .logo {
   color: #fff;
 }
 
-@imp {}
+.facts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.graph-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  bottom: 290px;
+}
+
+.graph-wrap h1 {
+  position: relative;
+  margin: 0;
+  top: 60px;
+  color: #490d5b;
+  font-size: 180px;
+  font-family: 'SerpentineSans', sans-serif;
+}
+
+.facts-wrap {
+  width: 40%;
+}
+
+.facts-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.facts-item__num {
+  font-family: 'BrutalType', sans-serif;
+  font-style: bold;
+  font-weight: 300;
+  font-size: 80px;
+  letter-spacing: 8px;
+  color: #808080;
+}
+
+.facts-item__desc {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 3.73px;
+  font-family: 'AvenirNextCyr', sans-serif;
+  position: relative;
+  bottom: 15px;
+}
 /*# sourceMappingURL=main.css.map */
