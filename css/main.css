@@ -342,4 +342,79 @@ nav.nav {
   font-size: 24px;
   letter-spacing: 2.4px;
 }
+
+.tasks {
+  margin-top: -500px;
+  background-image: url(../img/task-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tasks .container .bg-text {
+  top: 850px;
+  z-index: 0;
+  font-size: 364px;
+  font-weight: 400;
+  letter-spacing: 9px;
+  opacity: 0.07;
+}
+
+.task-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.task-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  width: 25%;
+  margin-top: 100px;
+  margin-bottom: 400px;
+  z-index: 5;
+}
+
+.task-item h2 {
+  color: #ffffff;
+  font-family: 'AvenirNextCyr', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  letter-spacing: 6px;
+  margin-bottom: 50px;
+}
+
+.task-item p {
+  font-family: 'AvenirNextCyr', sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 2.4px;
+}
+
+.task-item img {
+  margin-bottom: 40px;
+}
+
+.task-item__image {
+  margin-top: 30px;
+}
 /*# sourceMappingURL=main.css.map */
