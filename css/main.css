@@ -348,6 +348,7 @@ nav.nav {
   background-image: url(../img/task-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 2200px;
 }
 
 .tasks .container .bg-text {
@@ -416,5 +417,122 @@ nav.nav {
 
 .task-item__image {
   margin-top: 30px;
+}
+
+.auditory {
+  margin-top: -500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.auditory h1.brand {
+  font-family: 'SerpentineSans', sans-serif;
+  color: #4b0d5c;
+  font-size: 180px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -9px;
+}
+
+.auditory-content {
+  width: 50%;
+}
+
+.brand-wrap {
+  width: 75%;
+  margin-top: 150px;
+  font-family: 'AvenirNextCyr', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.brand-wrap p {
+  color: #000000;
+  margin: 30px 0;
+}
+
+.diogram-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: 80px;
+  width: 70%;
+  margin-left: 90px;
+  margin-top: 150px;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+}
+
+.diogram-desc__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 33%;
+}
+
+.diogram-desc__item span {
+  font-family: 'AvenirNextCyr', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 2.4px;
+  color: #000000;
+}
+
+.diogram-desc__item .circle {
+  border-radius: 50%;
+  background-color: #20183b;
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+}
+
+.diogram-desc__item .circle-1 {
+  background-color: #4b0d5c;
+}
+
+.diogram-desc__item .circle-2 {
+  background-color: #b61386;
+}
+
+.diogram-desc__item .circle-3 {
+  background-color: #6f6f6f;
+}
+
+.diogram-desc__item .circle-4 {
+  background-color: #e8e8e8;
+}
+
+.diogram-desc__item .circle-5 {
+  background-color: #bd8cc1;
+}
+
+.diogram-desc__item .circle-6 {
+  background-color: #fa97c2;
+}
+
+.diogram-img-wrap {
+  margin-top: 350px;
+}
+
+.diogram-img-wrap img {
+  position: absolute;
+  right: 50px;
+}
+
+.diogram {
+  left: 35%;
+  margin-top: -50px;
 }
 /*# sourceMappingURL=main.css.map */
