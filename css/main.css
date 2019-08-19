@@ -480,6 +480,7 @@ nav.nav {
       -ms-flex-align: center;
           align-items: center;
   width: 33%;
+  margin-top: 20px;
 }
 
 .diogram-desc__item span {
@@ -534,5 +535,112 @@ nav.nav {
 .diogram {
   left: 35%;
   margin-top: -50px;
+}
+
+.what-get {
+  background-image: url(../img/what-we-get.jpg);
+  background-position-y: -300px;
+  position: relative;
+  background-repeat: no-repeat;
+  z-index: 55;
+}
+
+.what-get h2 {
+  text-align: right;
+  font-family: 'SerpentineSans', sans-serif;
+  color: #4b0d5c;
+  font-size: 150px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -7.5px;
+}
+
+.what-get .bg-text {
+  opacity: 0.27;
+  text-align: right;
+}
+
+.what-get .bg-text.text-right {
+  font-size: 280px;
+  margin-left: -50px;
+}
+
+.bg-text-sm {
+  font-size: 94px;
+}
+
+.bg-text-md {
+  font-size: 175px;
+}
+
+.bg-text-wrap {
+  padding-top: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 400px;
+}
+
+.get-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.get-wrap span {
+  color: #797979;
+  font-family: 'BebasNeue', sans-serif;
+  letter-spacing: 10px;
+  font-size: 100px;
+}
+
+.get-wrap strong {
+  font-family: 'BebasNeue', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 3.6px;
+}
+
+.get-wrap p {
+  font-family: 'AvenirNextCyr', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 2.4px;
+}
+
+.get-wrap .get-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.get-wrap .col-6 {
+  width: 47%;
+}
+
+.get-wrap .col-4 {
+  width: 30%;
+}
+
+.what-get-h-2 {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  font-family: 'SerpentineSans', sans-serif;
+  color: #4b0d5c;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 70px;
 }
 /*# sourceMappingURL=main.css.map */
