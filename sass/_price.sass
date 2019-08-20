@@ -1,0 +1,73 @@
+.price
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-top: 100px
+  z-index: 56
+
+  h2
+    position: absolute
+    margin-top: -450px
+
+.histogram
+  display: flex
+  align-items: flex-start
+  justify-content: space-between
+  flex-direction: column
+  width: 400px
+  height: 40vw
+  transform: rotate(-90deg)
+  margin-left: 200px
+
+.column
+  +text
+
+  font-weight: 400
+  font-size: 24px
+  letter-spacing: -1.2px
+  background-color: #b994c7
+  border: 3px solid #4a165c
+  border-left: 0
+  color: #fff
+
+.column-
+  &1
+    padding: 40px 135px 40px 95px
+
+  &2
+    padding: 30px 40px 30px 55px
+
+  &3
+    padding: 40px 145px 40px 185px
+
+  &4
+    padding: 43px 85px 43px 94px
+
+  &5
+    padding: 30px 35px 30px 50px
+
+  &6
+    padding: 40px 40px 40px 20px
+
+.price-wrap
+  margin-top: -100px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  height: 480px
+  width: 45%
+
+  .price-item strong
+    +brutal
+
+    color: #808080
+    font-size: 80px
+    font-weight: 700
+    letter-spacing: -4px
+
+  .price-item p
+    +text
+    color: #000000
+    font-size: 30px
+    font-weight: 400
+    letter-spacing: -1.2px
