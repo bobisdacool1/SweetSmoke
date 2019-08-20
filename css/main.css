@@ -643,4 +643,216 @@ nav.nav {
   letter-spacing: 7px;
   font-size: 70px;
 }
+
+.arrowed {
+  margin-top: 200px;
+}
+
+.arrowed .get-item {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.arrowed .get-item img {
+  padding-right: 20px;
+}
+
+.row-mini {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 0;
+}
+
+.no-p {
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.first-row .get-item {
+  width: 30%;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.get-item-1 {
+  background-image: url(../img/bg-1.jpg);
+  background-position-x: 40px;
+  background-repeat: no-repeat;
+}
+
+.get-item-2 {
+  background-image: url(../img/bg-2.jpg);
+  background-position-x: 70px;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 320px;
+}
+
+.get-item-3 {
+  background-image: url(../img/bg-3.jpg);
+  background-position-x: 40px;
+  width: 370px;
+  height: 180px;
+  background-repeat: no-repeat;
+}
+
+.get-item-4 {
+  background-image: url(../img/bg-4.jpg);
+  background-position-x: 30px;
+  background-repeat: no-repeat;
+  width: 266px;
+  height: 250px;
+}
+
+.get-item-5 {
+  background-image: url(../img/bg-5.jpg);
+  background-position-x: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 412px;
+  height: 400px;
+}
+
+.get-item-6 {
+  background-image: url(../img/bg-6.jpg);
+  background-position-x: 17   px;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+}
+
+.get-item-6 .all-strong {
+  letter-spacing: 2.4px;
+  font-size: 24px;
+}
+
+.second-row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.third-row {
+  margin-top: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.lolipop {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.lolipop span {
+  font-size: 60px;
+  font-family: 'BebasNeue', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: #000000;
+  text-align: right;
+}
+
+.all-strong {
+  font-size: 30px;
+}
+
+.most-important-wrap {
+  background-image: url(../img/what-we-get-2.jpg);
+  background-repeat: no-repeat;
+  background-position-x: -50px;
+  height: 2200px;
+  position: relative;
+  bottom: 600px;
+  width: 100%;
+  z-index: -1;
+}
+
+.most-important-wrap .most-important {
+  position: relative;
+  top: 850px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.most-important-wrap .most-important strong {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'BebasNeue', sans-serif;
+  text-transform: uppercase;
+}
+
+.most-important-wrap .most-important .strong-1 {
+  font-size: 190px;
+  letter-spacing: 19px;
+  margin-bottom: 50px;
+}
+
+.most-important-wrap .most-important .strong-2 {
+  font-size: 90px;
+  letter-spacing: 9px;
+  line-height: 60px;
+  margin-bottom: 70px;
+}
+
+.most-important-wrap .most-important .strong-3 {
+  font-size: 120px;
+  letter-spacing: 12px;
+  line-height: 80px;
+  margin-bottom: 70px;
+}
+
+.most-important-wrap .most-important .strong-4 {
+  font-size: 48px;
+  letter-spacing: 4.8px;
+  line-height: 60px;
+}
 /*# sourceMappingURL=main.css.map */
