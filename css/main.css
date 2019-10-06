@@ -964,4 +964,236 @@ nav.nav {
   font-weight: 400;
   letter-spacing: -1.2px;
 }
+
+.feedback {
+  margin-top: -200px;
+  background-image: url(../img/feedback-bg.jpg);
+  background-repeat: no-repeat;
+  background-position-y: -550px;
+}
+
+.feedback button {
+  background-color: #4b0d5c;
+  border: 0;
+  padding: 26px 35px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin-bottom: 340px;
+}
+
+.feedback button:hover {
+  color: #4b0d5c;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.feedback h1 {
+  font-family: 'SerpentineSans', sans-serif;
+  color: #4b0d5c;
+  text-transform: uppercase;
+  font-size: 180px;
+  letter-spacing: -9px;
+}
+
+.feedback p {
+  margin-bottom: 90px;
+}
+
+.feedback p, .feedback button {
+  font-family: 'BebasNeue', sans-serif;
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 400;
+}
+
+.feedback-container {
+  padding-top: 50px;
+}
+
+form {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 850px;
+}
+
+form legend {
+  font-family: 'BebasNeue', sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  letter-spacing: -3.6px;
+  color: #4b0d5c;
+}
+
+form label {
+  font-family: 'AvenirNextCyr', sans-serif;
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: -1.2px;
+  margin-right: 50px;
+}
+
+form input, form textarea {
+  margin-right: 70px;
+  border: 1px solid #000;
+  padding: 30px;
+  resize: none;
+  width: 50%;
+  font-family: 'AvenirNextCyr', sans-serif;
+  color: #7b7b7b;
+  font-size: 24px;
+  letter-spacing: -1.2px;
+}
+
+form input::-webkit-input-placeholder, form textarea::-webkit-input-placeholder {
+  font-family: 'AvenirNextCyr', sans-serif;
+  color: #7b7b7b;
+  font-size: 24px;
+  letter-spacing: -1.2px;
+}
+
+form input:-ms-input-placeholder, form textarea:-ms-input-placeholder {
+  font-family: 'AvenirNextCyr', sans-serif;
+  color: #7b7b7b;
+  font-size: 24px;
+  letter-spacing: -1.2px;
+}
+
+form input::-ms-input-placeholder, form textarea::-ms-input-placeholder {
+  font-family: 'AvenirNextCyr', sans-serif;
+  color: #7b7b7b;
+  font-size: 24px;
+  letter-spacing: -1.2px;
+}
+
+form input::placeholder, form textarea::placeholder {
+  font-family: 'AvenirNextCyr', sans-serif;
+  color: #7b7b7b;
+  font-size: 24px;
+  letter-spacing: -1.2px;
+}
+
+form * {
+  margin-bottom: 35px;
+}
+
+form .row {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form .sum::-webkit-input-placeholder {
+  text-align: right;
+}
+
+form .sum:-ms-input-placeholder {
+  text-align: right;
+}
+
+form .sum::-ms-input-placeholder {
+  text-align: right;
+}
+
+form .sum::placeholder {
+  text-align: right;
+}
+
+.expiriance {
+  width: 70%;
+}
+
+.why-we {
+  width: 65%;
+}
+
+.fio {
+  width: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+footer {
+  background-image: url(../img/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: -420px;
+  margin-top: -400px;
+}
+
+footer h1 {
+  font-family: 'SerpentineSans', sans-serif;
+  display: block;
+  text-align: right;
+  color: #4b0d5c;
+  text-transform: uppercase;
+  font-size: 180px;
+  margin: 0;
+  position: relative;
+  padding-top: 300px;
+  margin-top: 80px;
+  letter-spacing: -9px;
+}
+
+footer .container {
+  height: 100%;
+}
+
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.footer-item {
+  width: 50%;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-item a {
+  font-family: 'BebasNeue', sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: -3px;
+  text-decoration: none;
+}
+
+.footer-item a.a-button {
+  margin-right: 15px;
+  padding: 30px;
+  background-color: #fff;
+  color: #000000;
+  font-size: 72px;
+  letter-spacing: -3.6px;
+}
 /*# sourceMappingURL=main.css.map */
